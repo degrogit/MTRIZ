@@ -2,10 +2,10 @@ public class lab2 {
     public static void main(String[] args) {
         int levels = 6; // Задайте кількість рівнів ялинки тут
         
-        printSymmetricTree(levels);
+        printTree(levels);
     }
     
-    public static void printSymmetricTree(int levels) {
+    public static void printTree(int levels) {
         for (int i = 1; i <= levels; i++) {
             // Виводимо пробіли для вирівнювання
             for (int j = 0; j < levels - i; j++) {
